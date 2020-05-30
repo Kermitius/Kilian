@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programmieren</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Kilian Kneissl">
+
+        <style>
+            body {
+                background-image: url("../Pictures/verlauf.png");
+                background-repeat: no-repeat;
+                background-position: right top;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            #ttt{
+                position: absolute;
+                transition: 1s;
+                left: 90%;
+                height: 200%;
+            }
+            #ttt:hover{
+                position: absolute;
+                transition: 1s;
+                
+                left: 70%;
+                height: 500%;
+            }
+            #back{
+                position: absolute;
+                font-size: 50px;
+                color: white;
+                font-family:fantasy;
+                top: 10px;
+            }
+            .neonpurple{
+                transition: 1s;
+            }
+            .neonpurple:hover{
+                transition: 1s;
+                text-shadow: 0 0 2.5px white,
+                            0 0 5px white,
+                            0 0 10px #986eb5,
+                            0 0 20px #986eb5,
+                            0 0 30px #986eb5,
+                            0 0 45px #986eb5,
+                            0 0 60px #986eb5,
+                            0 0 80px #986eb5;
+            }
+            .neonrosa{
+                transition: 1s;
+            }
+            .neonrosa:hover{
+                transition: 1s;
+                text-shadow: 0 0 2.5px white,
+                            0 0 5px white,
+                            0 0 10px #ffcbcb,
+                            0 0 20px #ffcbcb,
+                            0 0 30px #ffcbcb,
+                            0 0 45px #ffcbcb,
+                            0 0 60px #ffcbcb,
+                            0 0 80px #ffcbcb;
+            }
+            #procollage{
+                transition: 3s;
+                position: absolute;
+                top: 10%;
+                left: 0%;
+                width: 22%;
+                height: 5%;
+                font-size: 500%;
+                height: 10%;
+                width:50%;
+            }
+            #titlepro{
+                position: absolute;
+                font-size: 100%;
+                color: white;
+                font-family:fantasy;
+                left: 75%;
+            }
+            #titlettt{
+                position: absolute;
+                font-size: 100%;
+                color: white;
+                font-family:fantasy;
+                left: 85%;
+            }
+            #codetext{
+                color: white;
+                font-family:fantasy;
+                font-size: 20%;
+            }
+            #codetext:hover{
+                color: white;
+                font-family:fantasy;
+                font-size: 40%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="back" class="neonpurple"><a href="index.html" style="color: white; text-decoration: none">Back</a></div>
+        <div id="procollage">
+            <span class="neonpurple" id="titlepro">Programmieren</span>
+            <div id="code">
+                <span class="neonrosa" id="codetext">0101010010100010001000100001110000100101010</span>
+            </div>
+            <br>
+            <span id="titlettt" class="neonpurple">4Gewinnt</span>
+            <br>
+            <img src="../Pictures/4gewinnt.png" id="ttt">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #back{
+                position: absolute;
+                font-size: 50px;
+                color: white;
+                font-family:fantasy;
+                top: 10px;
+            }
+            .neonpurple{
+                transition: 1s;
+            }
+            .neonpurple:hover{
+                transition: 1s;
+                text-shadow: 0 0 2.5px white,
+                            0 0 5px white,
+                            0 0 10px #986eb5,
+                            0 0 20px #986eb5,
+                            0 0 30px #986eb5,
+                            0 0 45px #986eb5,
+                            0 0 60px #986eb5,
+                            0 0 80px #986eb5;
+            }
+
+            #mainframe{
+                border-style: solid;
+                position: absolute;
+                top: 5em;
+                left: 1em;
+                width: 100em;
+                height: 60em;
+                background-color: darkorchid;
+            }
+            #header{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100em;
+                height: 20em;
+                background-color: yellow;
+            }
+            #nav{
+                position: absolute;
+                top: 1.5em;
+                right: 0px;
+                width: 60em;
+                height: 1.5em;
+                background-color: red;
+            }
+            #main{
+                position: absolute;
+                left: 0em;
+                top: 4em;
+                height: 50em;
+                width: 100em;
+                background-color: grey;
+            }
+            #pictop{
+                position: absolute;
+                top: 0em;
+                left: 0em;
+                width: 100em;
+                height: 20em;
+                background-color: seagreen;
+            }
+            #artice{
+                position: absolute;
+                top:21em;
+                left: 0em;
+                width: 100em;
+                height: 30em;
+                background-color: blue;
+            }
+            #bild{
+                position: absolute;
+                top:0em;
+                left: 1em;
+                width: 47em;
+                height: 30em;
+                background-color: palevioletred;
+            }
+            #text{
+                position: absolute;
+                top:0em;
+                right: 1em;
+                width: 50em;
+                height: 30em;
+                background-color: wheat;
+            }
+            #footer{
+                position: absolute;
+                top:55em;
+                left: 0em;
+                width: 100em;
+                height: 5em;
+                background-color: darkorange;
+            }
+            #footertext{
+                position: absolute;
+                top:1.5em;
+                left: 0em;
+                width: 10em;
+                height: 2em;
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body style="background-color: darkslategray;">
+        <div id="back" class="neonpurple"><a href="index.html" style="color: white; text-decoration: none">Back</a></div>
+        <div id="mainframe">
+            <div id="header">Header mit Logo<div id="nav">Navigation</div></div>
+            <div id="main">
+                <div id="pictop">Bild Panorama</div>
+                <div id="artice">
+                    <div id="bild">Bild Freerider</div>
+                    <div id="text">Text</div>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footertext">Footer</div>
+            </div>
+        </div>
+    </body>
+</html>
